@@ -6,7 +6,7 @@
 
 ## Screenshot
 
-![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
+![Alt Text](https://raw.githubusercontent.com/rhlc/atm-demo/master/demo.gif)
 
 ## Commands
 
