@@ -3,28 +3,19 @@ import ReactDOM from "react-dom";
 
 const App = () => {
   return (
-    <div>
+    <div className="container">
       <h1>Alok Bank ATM</h1>
-      <input
-        type="number"
-        placeholder="enter ₹ to withdraw"
-        id="amount"
-      ></input> <br/>
-      <button id="clickButton">Click for Money</button>
+      <label htmlFor="input">Amount(₹)</label> <br />
+      <input type="number" placeholder="enter amount" id="amount"></input>
+      <br />
+      <button id="clickButton">WITHDRAW</button>
       <hr />
-      <h3>Denominations Fetched</h3>
-      <p>
-        ₹ 2000 x <span id="two-thousand"></span>
-      </p>
-      <p>
-        ₹ 500 x <span id="five-hundred"></span>
-      </p>
-      <p>
-        ₹ 200 x <span id="two-hunred"></span>
-      </p>
-      <p>
-        ₹ 100 x <span id="hundred"></span>
-      </p>
+      <div id="results">
+        <h3>Denominations Fetched</h3>
+      </div>
+      <hr />
+      <p id="final"></p>
+      <button id="reset">RESET</button>
     </div>
   );
 };
